@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<context-parameter>
+<context-param>PM</context-param>
+<context-value>Modi</context-value>
+</context-parameter>
+
+
+<context-parameter>
+<context-param>Country</context-param>
+<context-value>India</context-value>
+</context-parameter>
+
+
+</web-app>
