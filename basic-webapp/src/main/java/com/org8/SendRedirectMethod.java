@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/get")
-public class SendRequestmethod extends HttpServlet
+public class SendRedirectMethod extends HttpServlet
 {
-@Override
-protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-	// TODO Auto-generated method stub
-resp.sendRedirect("https://facebook.com/login/");
-
-}
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException 
+	{
+		// TODO Auto-generated method stub
+		resp.sendRedirect("https://facebook.com/login/");
+	}
 }

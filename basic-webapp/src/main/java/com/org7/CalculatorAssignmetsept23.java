@@ -38,10 +38,6 @@ public class CalculatorAssignmetsept23 extends HttpServlet
 			rd.include(req, resp);
 		}
 		
-		 
-		
-		 
-
 	}
 
 }
